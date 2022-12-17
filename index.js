@@ -1,8 +1,12 @@
 import React from 'react'
+import name from './data'
 
 const index = () => {
   return (
-    <div>index</div>
+    <>
+      <div>{`My name is ${name}`}</div>
+      <div>testing take 2</div>
+    </>
   )
 }
 
